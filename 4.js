@@ -14,33 +14,7 @@
 // c)            Explique como chegou no resultado. 
 
 /*
-    Usei tempo = distância / velocidade para descobrir o tempo que cada um levou na estrada
-
-    (carro)
-    {
-    tempo = 100 / 110
-    tempo = 0,91 horas 
-    }
-
-    (caminhão)
-    {
-    tempo = distância / velocidade + tempo extra dos pedágios
-    tempo = 100 / 80 + 2 * 5 / 60
-    tempo = 1,3 horas
-    }
-
-    Logo após usei regra de 3 para calcular a distância percorrida por cada veículo
-
-    110 km/h ------- 0,91 horas ------- x km
-    80 km/h ------- 1,3 horas ------- (100 - x) km
-
-    110 * x = 80 * (100 - x)
-    110x = 8000 - 80x
-    190x = 8000
-    x = 42,1 km
-
-    Então, o carro percorreu 42,1 km em direção a franca e o caminhão percorreu 57,9 em direção a rebeirão 
-    a Ribeirão preto. Logo, o caminhão estará mais próximo de Ribeirão preto quando os dois veículos se cruzarem
+    Independente das variáveis, a distância de ribeirão preto sempre será a mesma quando os veículos se cruzarem
 
 
 */
